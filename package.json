@@ -1,5 +1,4 @@
 {
-  "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -15,6 +14,7 @@
     "next": "13.5.4",
     "react": "^18",
     "react-dom": "^18",
+    "react-particles": "^2.12.2",
     "three": "^0.157.0"
   },
   "devDependencies": {
