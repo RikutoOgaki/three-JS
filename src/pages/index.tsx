@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import style from '@/styles/home.module.scss'
 
 export default function Home() {
@@ -11,7 +12,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={style.main}>
-
+        <ul>
+          <li><Link href={'/samples/01'}>sample01</Link></li>
+          <li><Link href={'/samples/02'}>sample02</Link></li>
+        </ul>
       </main>
     </>
   )

@@ -1,13 +1,16 @@
-import * as THREE from 'three'
-import { useState, useRef } from 'react'
-import { Canvas, useFrame } from '@react-three/fiber'
+import Particles from 'react-particles'
 import style from '@/styles/samples/01/index.module.scss'
 
 export default function Sample01() {
 
     return (
         <>
+            <div className={style.wrap}>
+                <Particles
+                    options={{
 
+                    }} />
+            </div>
         </>
     )
 }
